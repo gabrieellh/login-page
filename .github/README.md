@@ -1,10 +1,3 @@
-<style>
-    .title {
-        color: #ff0000;
-        font-family: Arial;
-        font-size: 25px;
-    }
-</style>
 
 <h1 class="title" align="center">
     Login Page
@@ -37,7 +30,7 @@
 ## ✨ Layout
 
 <p>
-    Voce pode acessar o layout clicando <a href="">Neste Link</a>
+    Voce pode acessar o layout clicando <a href="https://login-page-lilac.vercel.app/">Neste Link</a>
 </p>
 
 ## 👓 Creator
