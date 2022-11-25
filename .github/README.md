@@ -11,10 +11,10 @@
 </h1>
 
 <p align="center">
-<a href="">Tecnologias</a>   |
-<a href="">Layout</a>   |
-<a href="">Projeto</a>   |
-<a href="">Creator</a>
+<a href="https://github.com/gabrieellh/login-page#-tecnologias">Tecnologias</a>   |
+<a href="https://github.com/gabrieellh/login-page#-projeto">Projeto</a>   |
+<a href="https://github.com/gabrieellh/login-page#-layout">Layout</a>   |
+<a href="https://github.com/gabrieellh/login-page#-creator">Creator</a>
 </p>
 
   ## 💻  Tecnologias
