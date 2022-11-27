@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -10,7 +8,7 @@
 }
 
 body {
-    background-color: #7FFFD4;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.729) 50%, rgba(88, 24, 88, 0.515) 70%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,44 +23,55 @@ body {
 }
 
 .title {
-    color: #ff0000;
-    font-family: 'Anton', sans-serif;
+    margin-left: 35px;
+    color: rgb(255, 255, 255);
+    font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-style: italic;
-    letter-spacing: 5px;
-    margin-top: 10px;
-    margin-left: 20px;
+    letter-spacing: 2px;
 }
 
 .paragraph {
-    color: 	#FF8C00;
-    font-family: 'Lato', sans-serif;
+    margin-left: 10px;
+    font-family: 'Nunito', sans-serif;
+    color: 	#d0d0d0;
     font-weight: 400;
     font-size: 20px;
-    margin-top: 10px;
-    margin-left: 10px;
+}
+
+.user {
+    font-family: 'Nunito', sans-serif;
+}
+
+.user-information {
+    border-radius: 1000px;
+    border-style: none;
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 10px; 
+    background-color: rgba(128, 128, 128, 0.267);
 }
 
 .login-content  {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    font-family: 'Lato', sans-serif;
     background-color: #ffff;
     width: 200px;
-    padding: 20px;
+    height: 220px;
+    padding: 29px;
     border-radius: 16px;
 }
 
 .btn {
-    background-color: #FF8C00;
+    background-color: 	#7FFF00;
     border-radius: 16rem;
     border-style: none;
     height: 30px;
-    font-family: 'Lato', sans-serif;
     font-style: italic;
     font-weight: 400;
     font-size: 18px;
+    margin-top: 20px;
 
     translate: transform .5s;  /*Animation of button*/ 
 }
@@ -71,11 +80,13 @@ body {
 
 .btn:hover {
     transform: scale(0.96);
+    background-color:rgba(105, 105, 105, 0.444);
 }
 
 .credits-for-creator {
     display: flex;
     flex-direction: column; 
+    text-align: center;
 }
 
 
@@ -84,7 +95,7 @@ body {
     flex-direction: column;
     text-align: center;
     margin-top: 10px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 20px;
     font-weight: 400;
     font-style: italic;
@@ -92,9 +103,9 @@ body {
 }
 
 .creator {
-    font-family: 'Press Start 2P', cursive;
     font-weight: 400;
     font-size: 25px;
+    font-family: 'Nunito', sans-serif;
     color: #ffff;
     
 }
